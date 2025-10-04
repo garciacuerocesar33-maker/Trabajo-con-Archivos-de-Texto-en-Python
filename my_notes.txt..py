@@ -12,3 +12,4 @@ with open("my_notes.txt", "r") as file:
     while line:
         print(line.strip())  # Imprime la línea sin el salto de línea final
         line = file.readline()
+
